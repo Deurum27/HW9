@@ -1,8 +1,12 @@
-html {
-    width: 1440px;
+html,
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    height: 2000px;
 }
 
-body {
-    height: 2000px;
-
+.container {
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
 }
