@@ -5,25 +5,33 @@ body {
     height: 2000px;
 }
 
-.header {
+header {
+    padding-top: 1rem;
+    padding-bottom: 10rem;
     background-color: #5C6F4E;
-
 }
 
 .container {
     width: 1440px;
     margin-right: auto;
     margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
 }
 
 .logo {
     font-size: 3.6rem;
     line-height: 1.17;
     margin: 160px 29px 1199px;
+    text-decoration: none;
+    color: white;
 }
 
-.li {
+.account a {
     font-size: 2.4rem;
     line-height: 1.17;
+    text-decoration: none;
+    color: black;
 }
 
