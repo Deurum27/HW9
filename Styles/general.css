@@ -6,26 +6,47 @@ body {
 }
 
 header {
-    padding-top: 1rem;
-    padding-bottom: 10rem;
     background-color: #5C6F4E;
+    padding: 25px 0;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    background-color: #7B89BA; 
+    padding: 10px 8px;
 }
 
 .container {
     width: 1440px;
     margin-right: auto;
     margin-left: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between
 }
+
 
 .logo {
     font-size: 3.6rem;
     line-height: 1.17;
-    margin: 160px 29px 1199px;
     text-decoration: none;
     color: white;
+}
+
+nav {
+    width: 265px;
+    height: 187px;
+    position: relative;
+    top: 0px; left: -180px;
+}
+
+.account:hover .account {
+    background-color: #6F7397;
+}
+.account:hover {
+    display: block;
 }
 
 .account a {
@@ -33,5 +54,10 @@ header {
     line-height: 1.17;
     text-decoration: none;
     color: black;
+    float: none;
+    padding: 16px 35px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
 
